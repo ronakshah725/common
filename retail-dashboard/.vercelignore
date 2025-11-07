@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+.vite
+
+# Development
+.env*.local
+.DS_Store
+
+# Testing
+coverage
+cypress/videos
+cypress/screenshots
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
