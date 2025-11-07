@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Custom theme configuration for Tailwind 4.0 */
+@theme {
+  /* Color palette for financial data */
+  --color-growth: #10b981;
+  --color-decline: #f43f5e;
+  --color-neutral: #64748b;
+  --color-accent: #3b82f6;
+
+  /* Font configuration */
+  --font-family-sans: Inter, system-ui, sans-serif;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular numbers for financial data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
